@@ -3,9 +3,20 @@
 <head> 
 	<title>JQuery hello</title> 
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="./lib/pansai3.css" />
+	<link rel="stylesheet" href="./lib/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="./lib/jquery.mobile.structure-1.4.5.min.css" />
 	<link rel="stylesheet" href="./lib/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" href="./lib/jquery-ui.css" />
 	<script src="./lib/jquery-1.8.3.min.js"></script>
 	<script src="./lib/jquery.mobile-1.4.5.min.js"></script>
+	<script src="./lib/jquery-ui.js"></script>
+	<script src="./lib/datepicker-zh-TW.js"></script>
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker({ dateFormat: 'yy/mm/dd' }).val();
+  } );
+  </script>
 </head> 
 <body> 
 
@@ -18,11 +29,18 @@
 	<div data-role="content">	
 		<p>Hello world</p>		
 	</div><!-- /content -->
-	<a href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">jquery mobile css145</a>
-	<a href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css">jquery mobile css121</a>
-	<a href="http://code.jquery.com/jquery-1.8.3.min.js">jquery mobile min183</a>
-	<a href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js">jquery mobile min121</a>
-	<a href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js">jquery mobile min145</a>
+	<a href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">jquery mobile css145</a><br/>
+	<a href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css">jquery mobile css121</a><br/>
+	<a href="http://code.jquery.com/jquery-1.8.3.min.js">jquery mobile min183</a><br/>
+	<a href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js">jquery mobile min121</a><br/>
+	<a href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js">jquery mobile min145</a><br/>
+	<a href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">bootstrap303</a><br/>
+	<a href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">jquery-ui.css</a><br/>
+	<a href="https://code.jquery.com/ui/1.12.1/jquery-ui.js">jquery-ui.js</a><br/>
+	<a href="https://raw.githubusercontent.com/jquery/jquery-ui/master/ui/i18n/datepicker-zh-TW.js">jquery-ui-tw</a><br/>
+	<a href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css">jquery.mobile.structure-1.4.5.min.css</a>
+	
+	<p>Date: <input type="text" id="datepicker"></p>
 
 </div><!-- /page -->
 
